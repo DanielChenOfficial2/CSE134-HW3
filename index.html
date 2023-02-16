@@ -5,91 +5,72 @@
 		<meta name="viewport" content="width=device-width" />
 		<title> Daniel's Personal Website </title>
 		<link rel="icon" href="favicon.ico" />
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" media='screen and (min-width: 1024px) 'href="style1.css" />
+		<link rel="stylesheet" media='screen (min-width: 551px) and (max-width: 1023px) 'href="style2.css" />
+		<link rel='stylesheet' media='screen and (max-width: 550px)' href='style3.css' /> 
 	</head>
 	<body>
 		<h1> Daniel's Personal Website </h1>
 		<main> 
-			<p>These are my primary <span class="interest">interests</span>, hobbies, and side projects. 
-			</p>
-		
-		<section id="interests">
-			<h2> Interests </h2>
-			<p> My interests include: </p>
-			<ol> 
-				<li>Web development (more towards backend)</li>
-				<li>Japanese to English translation. As mentioned below, I enjoy reading Japanese teenage and young adult literature. My eventual goal is to found a localization company that does such translations, mostly targeting what I see are issues in how companies are currently approaching localization and how the meaning of the original work is being changed from what it could be said as. </li>
-			</ol>
-		</section>
-		
-		<section id="hobbies">
-			<h2> Hobbies </h2>
-			<p> My hobbies include: </p>
-			<ul> 
-				<li><strong>Gaming</strong> (currently Valorant, Pokemon, and JRPGs). My favorite games <em>are</em> Super Mario Galaxy (1 and 2), Pokemon Black/White, and <b> <i> The Legend of Heroes: Trails from Zero and Trails into Azure. </i> </b>
-				<li>Streaming. I try to stream at least once or twice a week, since I feel like it's great stress relief for me to be able to talk to people while playing games. I just hit Twitch Affiliate, meaning I can now monetize my channel, and my Twitch can be found <a href="https://www.twitch.tv/pascalswag3r" target="_blank" rel="noopener noferrer">here. </a> </li> 
-				<li>Exercising. Unfortunately, as I am somewhat of a lazy person and like to get my exercise done in the morning, I don't know anyone who is willing to work out with me at 8 AM every day. Although I myself can't always do that either, especially as the quarter goes on.
-				<li>Reading. I read a large amount of Japanese novels and manga in the original language. Understanding the language is hard, but there's not too much depth to the works, so it's pretty easy and relaxing to read otherwise. </li>
-			</ul>
-		</section>
-		
-		<section id="skills">
-			<h2> Skills </h2>
-			<table>
-				<caption>Computer Science</caption>
-				<colgroup>
-					<col>
-					<col span="2" class="webdev">
-					<col span="2" class="classic">
-				</colgroup>
-				<tr>
-					<td></td>
-					<th scope="col">HTML</th>
-					<th scope="col">JS</th>
-					<th scope="col">Java</th>
-					<th scope="col">Python</th>
-				</tr>
-			</table>
-		</section>
-		
-		<br />
-		
-		<section id="contact">
-			<img src="photos/portrait.png" alt="Asian man wearing a striped long sleeved shirt, black tie and pants." >
-			<aside>
-				<h3> Contact Me </h3>
-				<p> Email: danielchenofficial@gmail.com </p>
-				<p> <a href=https://www.linkedin.com/in/daniel-c-b7308a101/ target="_blank" rel="noopener noferrer">LinkedIn</a>
-			</aside>
-		</section>
-		
-		<section id="sideprojects">
-			<h2> Side Projects </h2>
-			<p> My side projects include: </p>
-			<ol>
-				<li><a href="https://www.youtube.com/channel/UCWv_ce0AbDnjOMvqDxx60yA" target="_blank" rel="noopener noferrer">Youtube</a>. Arguably the work that I've taken the most pride in, the videos on this channel go over computer networking videos centered around Cisco simulation labs. This was mostly a high school project as I do not post videos there anymore, but it was from this that I started becoming interested in content creation and eventually moved to streaming. To date, I have accumulated 170k views.</li>
-				<li><a href="https://danielchenofficial2.github.io/JAPNGroupAssigner/main.html"  target="_blank" rel="noopener noferrer">Random Group Assigner. </a> Seeing that students in my Japanese classes tended to stick together with people they knew rather than with different people every class, I made this tool to help my Japanese professors mix conversational practice groups without needing to think about who had worked with who else before. It is a basic website app that I am working on improving mostly design-wise. Some of the key methods I got experience with were the <code>getItem()</code> and <code>setItem()</code> functions from the localStorage API.</li>
-			</ol>
-		</section>
-		
-		<section id="catpictures">
-			<p>Have some cat pictures. I love taking pictures of cats, as you can probably tell. </p>
-			<picture> 
-				<source srcset="photos/PXL_20220611_031252657.jpg" width="1008" height="756" media="(orientation: portrait)" >
-				<img src="photos/PXL_20220611_031252657.jpg" width="1008" height="756" alt="Two cats sitting on a rug">
-			</picture>
-			<picture> 
-				<img src="photos/PXL_20220704_032617167.jpg" width="1008" height="756" alt="A cat looking at the camera">
-			</picture>
-			<picture> 
-				<img src="photos/PXL_20220707_035044227.jpg" width="1008" height="756" alt="A cat looking at the camera">
-			</picture>
-		
-		</main>
-		
-		<footer>
-			<p>© 2023 Daniel Chen</p>
-		</footer>
+			<section id="interests">
+				<h2> Interests </h2>
+				<ul> 
+					<li>Web development (more towards backend)</li>
+					<br />
+					<li>Japanese to English translation. As mentioned below, I enjoy reading Japanese teenage and young adult literature. My eventual goal is to found a localization company that does such translations, mostly targeting what I see are issues in how companies are currently approaching localization and how the meaning of the original work is being changed from what it could be said as. </li>
+				</ul>
+			</section>
+			
+			<section id="hobbies">
+				<h2> Hobbies </h2>
+				<ul> 
+					<li><b>Gaming</b> (currently Valorant, Pokemon, and JRPGs). My favorite games are <i> Super Mario Galaxy (1 and 2)</i>, <i>Pokemon Black/White</i>, and <i>The Legend of Heroes: Trails from Zero/Trails into Azure. </i> </li>
+					<br />
+					<li><b>Streaming.</b> I try to stream at least once or twice a week, since I feel like it's great stress relief for me to be able to talk to people while playing games. I just hit Twitch Affiliate, meaning I can now monetize my channel, and my Twitch can be found <a href="https://www.twitch.tv/pascalswag3r" target="_blank" rel="noopener noferrer">here. </a> </li> 
+					<br />
+					<li><b>Exercising.</b> Unfortunately, as I am somewhat of a lazy person and like to get my exercise done in the morning, I don't know anyone who is willing to work out with me at 8 AM every day. Although I myself can't always do that either, especially as the quarter goes on.
+					<br />
+					<li><b>Reading.</b> I read a large amount of Japanese novels and manga in the original language. Understanding the language is hard, but there's not too much depth to the works, so it's pretty easy and relaxing to read otherwise. </li>
+				</ul>
+			</section>
+			
+			<section id="skills">
+				<h2> Skills </h2>
+				<ul> 
+					<li>HTML: [some skills here]</li>
+					<br />
+					<li>JS: [some skills here]</li>
+					<br />
+					<li>Java: [some skills here]</li>
+					<br />
+					<li>Python: [some skills here]</li>
+			</section>
+			
+			<br />
+			
+			
+			
+			<section id="contact">
+				<picture>			
+					
+					<source srcset="portrait.webp" width="337.5px" height="450px" media="(min-width: 1024px)" alt="Asian man wearing a striped long sleeved shirt, black tie and pants.">
+					<source srcset="portrait2.png" width="337.5px" height="450px" media="(min-width: 1024px)" alt="Asian man wearing a striped long sleeved shirt, black tie and pants.	">
+					<source srcset="photos/portrait4.png" width="300px" height="300px" media="(min-width: 551px) and (max-width: 1023px)" 55alt="Asian man wearing a striped long sleeved shirt, black tie and pants.">
+					<source srcset="photos/portrait3.png" width="200px" height="100px" media="(max-width: 550px)" alt="Asian man wearing a striped long sleeved shirt, black tie and pants.">
+					<img src="photos/PXL_20220509_023735995.MP.jpg">
+				</picture>
+				<aside>
+					<h3> Contact Me </h3>
+					<p> Email: danielchenofficial@gmail.com </p>
+					<p> <a href=https://www.linkedin.com/in/daniel-c-b7308a101/ target="_blank" rel="noopener noferrer">LinkedIn</a>
+				</aside>
+			</section>
+			
+			</main>
+			
+			<footer>
+				<p>© 2023 Daniel Chen</p>
+			</footer>
 	
 	</body>
 	
