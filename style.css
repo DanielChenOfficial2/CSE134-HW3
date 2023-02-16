@@ -1,0 +1,9 @@
+:root {
+	--main-link-color: #11cbd8;
+}
+a[href] {
+	color: var(--main-link-color);
+}	
+a:hover {
+	color: var(--main-link-color);
+}
