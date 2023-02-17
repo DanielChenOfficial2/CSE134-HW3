@@ -11,31 +11,19 @@ a:hover {
 }
 
 body {
-	min-height: 100vh;
-	min-width: 100vh;
+	min-height: 25vh;
+	min-width: 25vh;
 	
 }
 main {
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: center;
-}
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
 }
 
 h1 {
 	text-align: center;
 	font-size: 3rem;
-	animation: 3s 1 alternate slidein;  #from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#defining_the_animation_sequence_using_keyframe
 }
 
 #from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
@@ -61,7 +49,7 @@ transform: rotate(1deg);
 }
 
 li {
-	width: 50ch;
+	width: 95%;
 }
 
 footer {
