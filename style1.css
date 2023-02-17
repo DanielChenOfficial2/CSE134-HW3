@@ -17,6 +17,7 @@ body {
 }
 main {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 @keyframes slidein {
@@ -61,6 +62,7 @@ transform: rotate(1deg);
 
 li {
 	width: 50ch;
+	padding-bottom: 1.5vh;
 }
 
 footer {

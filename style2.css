@@ -50,6 +50,7 @@ transform: rotate(1deg);
 
 li {
 	width: 95%;
+	padding-bottom: 1.5vh;
 }
 
 footer {
