@@ -26,7 +26,7 @@ h1 {
 	font-size: 3rem;
 }
 
-#from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+/*from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions*/
 a {
   flex: 1;
   background-color: #fff;
@@ -56,20 +56,6 @@ footer {
 	display: flex;
 	justify-content: center;
 }
-
-section[id="sideprojects"] {
-	width: 80%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: center;
-}
-
-#sideprojectli1{
-}
-#sideprojectli2  {
-}
-
 
 * {
 	font-size: 1rem;

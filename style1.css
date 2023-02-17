@@ -17,7 +17,6 @@ body {
 }
 main {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
 }
 @keyframes slidein {
@@ -35,10 +34,10 @@ main {
 h1 {
 	text-align: center;
 	font-size: 3rem;
-	animation: 3s 1 alternate slidein;  #from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#defining_the_animation_sequence_using_keyframe
+	animation: 3s 1 alternate slidein;  /*from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#defining_the_animation_sequence_using_keyframe*/
 }
 
-#from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+/*from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions*/
 a {
   flex: 1;
   background-color: #fff;
@@ -67,14 +66,6 @@ li {
 footer {
 	display: flex;
 	justify-content: center;
-}
-
-section[id="sideprojects"] {
-	width: 80%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: center;
 }
 
 
